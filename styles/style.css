@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  vertical-align: baseline;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #40e0d0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff0080,
+    #ff8c00,
+    #40e0d0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff0080,
+    #ff8c00,
+    #40e0d0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+main {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tasks {
+  background-color: #fff;
+  height: 500px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 80px;
+  max-width: 800px;
+  min-width: 600px;
+}
+
+.insert-task {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: -50px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.input-text {
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #000;
+}
+.btn-plus {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.fa-plus-circle,
+.fa-times-circle {
+  font-size: 22px !important;
+  color: #000;
+}
+
+.list-tasks {
+  display: flex;
+  flex-direction: column;
+  max-height: 400px;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  width: 500px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.description-task {
+  white-space: nowrap;
+  width: 430px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 5px;
+}
+
+.btn-trash {
+  margin-left: 5px;
+}
+
+.fa-pencil-alt,
+.fa-trash-alt {
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.description {
+  width: 430px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 5px;
+}
+
+.btns {
+  margin-left: 5px;
+}
+
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  width: 12px;
+  height: 12px;
+  border: 1px #d2e1e5 solid;
+  outline: none;
+}
+
+.checkbox:checked {
+  background: #000;
+  outline: none;
+  border: 1px solid;
+}

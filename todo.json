@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "description": "ligar para o médico",
+      "checked": true,
+      "id": 1
+    },
+    {
+      "description": "marcar consulta as 12h",
+      "checked": true,
+      "id": 2
+    },
+    {
+      "description": "fazer lista de compras",
+      "checked": false,
+      "id": 3
+    }
+  ]
+}

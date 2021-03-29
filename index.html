@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <main>
+    <div class="tasks">
+      <div class="insert-task">
+        <input class="input-text" type="text">
+        <a class="btn-plus" href="#">
+          <i class="fas fa-plus-circle"></i>
+        </a>
+        <a class="btn-clear" href="#">
+          <i class="fas fa-times-circle"></i>
+        </a>
+      </div>
+      <div class="list-tasks">
+        <!-- <div class="task">
+          <input type="checkbox" name="" id="">
+          <div class="description-task">Task one</div>
+          <a href="#">
+            <i class="fas fa-pencil-alt"></i>
+          </a>
+          <a class="btn-trash" href="#">
+            <i class="fas fa-trash-alt"></i>
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </main>
+  <script src="./services/api.js"></script>
+  <script src="./utils/renderTasks.js"></script>
+  <script src="./script.js"></script>
+  <script src="./utils/deleteTaskSelected.js"></script>
+  <script src="./utils/updateTaskSelected.js"></script>
+  <script src="./utils/enableEdition.js"></script>
+  <script src="./utils/resetButtons.js"></script>
+  <script src="./utils/confirmChanges.js"></script>
+  <script src="./utils/changeChecked.js"></script>
+</body>
+</html>
